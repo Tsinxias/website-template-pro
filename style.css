@@ -71,10 +71,50 @@ a .fa {
 
 /*page main section 4*/
 .p1_sec4 {
-  height: 600px;
+  height: 800px;
 }
 
 .milieu {
   margin: auto;
   width: 55%;
 }
+
+.blue_back {
+  background-color: #0088f8;
+  color: white;
+}
+
+.black_back {
+  background-color: black;
+  color: white;
+}
+
+.btn-outline-white {
+  background-color: #0088f8;
+  border-color: white;
+  color: white;
+}
+
+.noSpace_down {
+  margin-bottom: 0;
+}
+
+.space_down {
+  margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqd
