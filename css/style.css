@@ -1,52 +1,234 @@
-/*
-Error: Invalid CSS after "...90abef969da3e5d": expected "{", was "}"
-        on line 183 of scss/style.scss
+/*page home main*/
+/*header - nav*/
+.autour {
+  border-bottom: 1px solid black;
+  margin: 10px 0 10px 0; }
 
-178: }
-179: 
-180: .white {
-181:   color: white;
-182: >>>>>>> 51dc711d4e9513a47efc1aab790abef969da3e5d
-183: }
+.grey .fa, .nav a, .grey {
+  color: #797979; }
 
-Backtrace:
-scss/style.scss:183
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1203:in `tok!'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:677:in `block'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:697:in `block_child'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:678:in `block'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:697:in `block_child'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:678:in `block'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:670:in `ruleset'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:686:in `block_contents'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...90abef969da3e5d\": expected \"{\", was \"}\"\A         on line 183 of scss/style.scss\A \A 178: }\A 179: \A 180: .white {\A 181:   color: white;\A 182: >>>>>>> 51dc711d4e9513a47efc1aab790abef969da3e5d\A 183: }"; }
+.border_left {
+  border-left: 1px solid black;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+/*page main section 1*/
+.p1_sec1 {
+  background-image: url("../images/3214321413.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  color: white; }
+
+.p1_sec1 button {
+  margin-top: 50px; }
+
+/*page main section 2*/
+.taille_300 {
+  height: 300px;
+  margin: 0; }
+
+.p1_box1 {
+  margin-right: 25px;
+  margin-left: 25px; }
+
+.box1_right {
+  margin-left: 20px; }
+
+.bold {
+  font-weight: bold;
+  padding-top: 5px;
+  margin: 0; }
+
+/*page main section 3*/
+.p1_sec3 {
+  background-color: #f6f6f6;
+  padding-top: 50px; }
+
+.btn-violet {
+  background-color: #0088f8;
+  color: white;
+  font-size: 1em; }
+
+.sec3_haut p, .sec3_haut h1, .sec3_haut button {
+  margin: auto;
+  margin-bottom: 40px; }
+
+/*page main section 4*/
+.p1_sec4 {
+  height: 800px; }
+
+.blue_back {
+  background-color: #0088f8;
+  color: white; }
+
+.black_back {
+  background-color: black;
+  color: white; }
+
+.noSpace_down {
+  margin-bottom: 0; }
+
+.space_down {
+  margin-bottom: 45px; }
+
+.space_10 {
+  margin-bottom: 10px; }
+
+/*page main section 5*/
+.p1_sec5 {
+  height: 950px;
+  margin-top: 95px; }
+
+.divider {
+  margin: 25px 0; }
+
+.upper-divider {
+  background: #0088f8;
+  position: absolute;
+  width: 100px;
+  height: 3px; }
+
+.p1_box2 {
+  margin: 10px 10px;
+  padding: 0; }
+
+/*page main section 6*/
+.p1_sec6 {
+  background-color: #f7f7f7;
+  height: 750px;
+  padding-top: 95px; }
+
+.p1_box3 {
+  margin: 30px 0; }
+
+.box3_text {
+  margin: auto;
+  width: 80%; }
+
+/*page main section 7*/
+.p1_box4 p {
+  margin: 40px 0; }
+
+.img_back {
+  background: linear-gradient(to bottom, rgba(55, 62, 70, 0.8), rgba(55, 62, 70, 0.8)), url("../images/c-lad9xizbg-tim-gouw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 600px; }
+
+.btn-noBack {
+  border: 1px solid white;
+  background: none;
+  color: white; }
+
+/*page main section 8*/
+.p1_sec8 {
+  height: 600px; }
+
+.sec8_right {
+  margin-left: 50px;
+  width: 35%; }
+
+.text_block {
+  height: 85px;
+  font-size: 0.8em;
+  background: none; }
+
+/*page main section 9*/
+.p1_sec9 {
+  background-image: url("../images/sky.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; }
+
+.p1_box5 {
+  width: 200px;
+  height: 170px;
+  margin-right: 40px;
+  padding-top: 20px; }
+
+.p1_box5_text {
+  padding-top: 35px;
+  width: 34%; }
+
+/*page main section 10*/
+.p1_sec10 {
+  height: 650px; }
+
+.p1_sec10 a {
+  margin-top: 40px;
+  color: black; }
+
+.p1_box6 {
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  padding: 25px 0 25px 25px; }
+
+.box6_back_left {
+  background-image: url("../images/23545-825x600.jpg"); }
+
+.box6_back_middle {
+  background-image: url("../images/photography3-825x600.jpg");
+  margin: 0 30px; }
+
+.box6_back_right {
+  background-image: url("../images/aaron-burden-55603-825x600.jpg"); }
+
+.box6_down {
+  padding-left: 25px; }
+
+.box6_author {
+  font-size: 0.8em;
+  margin: auto;
+  margin-left: 10px; }
+
+/*page main section 10*/
+.p1_sec10 {
+  background-color: #f5f5f5;
+  margin: 0; }
+
+/*page main section 12*/
+.p1_sec12 {
+  background-color: #0088f8; }
+
+/*page main footer*/
+.p1_footer {
+  background-color: #131719;
+  padding: 60px 0; }
+
+.p1_footer hr {
+  background: #797979;
+  margin: 0; }
+
+.p1_footer ul {
+  list-style-type: none;
+  padding-left: 0; }
+  .p1_footer ul li {
+    padding: 15px 0; }
+  .p1_footer ul li:first-of-type {
+    padding-top: 0; }
+
+.text-small {
+  font-size: 0.8em; }
+
+/*page main copyright*/
+.copyright {
+  background-color: #0b0e0f;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 0; }
+
+.white, .copyright_right .fa {
+  color: white; }
+
+/* home about us */
+.h6-about {
+  font-size: 12px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
