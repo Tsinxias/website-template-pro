@@ -1,31 +1,22 @@
 /*
-Error: Invalid CSS after "...90abef969da3e5d": expected "{", was "}"
-        on line 169 of scss/style.scss
+Error: Invalid CSS after "...t-weight: bold;": expected "}", was ""
+        on line 168 of scss/style.scss
 
-164: }
-165: 
-166: .white {
-167:   color: white;
-168: >>>>>>> 51dc711d4e9513a47efc1aab790abef969da3e5d
-169: }
+163: /* home about us *\/
+164: 
+165: .h6-about {
+166:   font-size: 12px;
+167:   font-weight: bold;
 
 Backtrace:
-scss/style.scss:169
+scss/style.scss:168
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1207:in `expected'
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1137:in `expected'
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1132:in `tok!'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:665:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:685:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:677:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:685:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:677:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:667:in `block'
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:658:in `ruleset'
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:684:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:674:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:677:in `block_contents'
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:125:in `stylesheet'
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:41:in `parse'
 /usr/lib/ruby/vendor_ruby/sass/engine.rb:406:in `_to_tree'
@@ -49,4 +40,4 @@ scss/style.scss:169
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...90abef969da3e5d\": expected \"{\", was \"}\"\A         on line 169 of scss/style.scss\A \A 164: }\A 165: \A 166: .white {\A 167:   color: white;\A 168: >>>>>>> 51dc711d4e9513a47efc1aab790abef969da3e5d\A 169: }"; }
+  content: "Error: Invalid CSS after \"...t-weight: bold;\": expected \"}\", was \"\"\A         on line 168 of scss/style.scss\A \A 163: /* home about us */\A 164: \A 165: .h6-about {\A 166:   font-size: 12px;\A 167:   font-weight: bold;"; }
