@@ -1,43 +1,138 @@
-/*
-Error: Invalid CSS after "...t-weight: bold;": expected "}", was ""
-        on line 168 of scss/style.scss
+/*page home main*/
+/*header*/
+.autour {
+  border-bottom: 1px solid black;
+  margin: 10px 0 10px 0; }
 
-163: /* home about us *\/
-164: 
-165: .h6-about {
-166:   font-size: 12px;
-167:   font-weight: bold;
+.grey .fa {
+  color: #797979; }
 
-Backtrace:
-scss/style.scss:168
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1207:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1137:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1132:in `tok!'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:667:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:658:in `ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:684:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:677:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:125:in `stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:41:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:406:in `_to_tree'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:381:in `_render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:298:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:473:in `on_file_changed'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:331:in `block in watch'
-/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
-/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
-/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
-/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...t-weight: bold;\": expected \"}\", was \"\"\A         on line 168 of scss/style.scss\A \A 163: /* home about us */\A 164: \A 165: .h6-about {\A 166:   font-size: 12px;\A 167:   font-weight: bold;"; }
+.border_left {
+  border-left: 1px solid black;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+a .fa {
+  color: #797979; }
+
+/*page main section 1*/
+.p1_sec1 {
+  background-image: url("../images/3214321413.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  color: white; }
+
+.p1_sec1 button {
+  margin-top: 50px; }
+
+/*page main section 2*/
+.taille_300 {
+  height: 300px;
+  margin: 0; }
+
+.p1_box1 {
+  margin-right: 25px;
+  margin-left: 25px; }
+
+.box1_right {
+  margin-left: 20px; }
+
+.bold {
+  font-weight: bold;
+  padding-top: 5px;
+  margin: 0; }
+
+/*page main section 3*/
+.p1_sec3 {
+  background-color: #f6f6f6;
+  padding-top: 50px; }
+
+.btn-violet {
+  background-color: #0088f8;
+  color: white;
+  font-size: 1em; }
+
+.sec3_haut p, .sec3_haut h1, .sec3_haut button {
+  margin: auto;
+  margin-bottom: 40px; }
+
+/*page main section 4*/
+.p1_sec4 {
+  height: 800px; }
+
+.blue_back {
+  background-color: #0088f8;
+  color: white; }
+
+.black_back {
+  background-color: black;
+  color: white; }
+
+.btn-outline-white {
+  background-color: #0088f8;
+  border-color: white;
+  color: white;
+  font-size: 1.5em; }
+
+.noSpace_down {
+  margin-bottom: 0; }
+
+.space_down {
+  margin-bottom: 45px; }
+
+.space_10 {
+  margin-bottom: 10px; }
+
+/*page main section 5*/
+.p1_sec5 {
+  height: 900px; }
+
+.upper-divider {
+  background: #0088f8;
+  position: absolute;
+  width: 100px;
+  height: 3px; }
+
+.p1_box2 {
+  margin: 10px 10px;
+  padding: 0; }
+
+/*page main section 6*/
+.p1_sec6 {
+  background-color: #f7f7f7; }
+
+/*page main section 7*/
+.img_back {
+  background: linear-gradient(to bottom, rgba(55, 62, 70, 0.8), rgba(55, 62, 70, 0.8)), url("../images/c-lad9xizbg-tim-gouw.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white; }
+
+/*page main section 10*/
+.p1_sec10 {
+  background-color: #f5f5f5;
+  margin: 0; }
+
+/*page main section 12*/
+.p1_sec12 {
+  background-color: #0088f8; }
+
+/*page main footer*/
+.p1_footer {
+  background-color: #131719; }
+
+/*page main copyright*/
+.copyright {
+  background-color: #0b0e0f; }
+
+.white {
+  color: white; }
+
+/* home about us */
+.h6-about {
+  font-size: 12px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
