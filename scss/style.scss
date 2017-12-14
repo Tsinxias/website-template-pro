@@ -1,12 +1,12 @@
 /*page home main*/
 
-/*header*/
+/*header - nav*/
 .autour {
   border-bottom: 1px solid black;
   margin: 10px 0 10px 0;
 }
 
-.grey .fa {
+.grey .fa, .nav a, .grey {
   color: #797979;
 }
 
@@ -17,9 +17,6 @@
   padding-right: 10px;
 }
 
-a .fa {
-  color: #797979;
-}
 /*page main section 1*/
 .p1_sec1 {
   background-image: url("../images/3214321413.jpg");
@@ -107,7 +104,12 @@ a .fa {
 
 /*page main section 5*/
 .p1_sec5 {
-  height: 900px;
+  height: 950px;
+  margin-top: 95px;
+}
+
+.divider {
+  margin: 25px 0;
 }
 
 .upper-divider {
@@ -125,6 +127,17 @@ a .fa {
 /*page main section 6*/
 .p1_sec6 {
   background-color: #f7f7f7;
+  height: 750px;
+  padding-top: 95px;
+}
+
+.p1_box3 {
+  margin: 30px 0 ;
+}
+
+.box3_text {
+  margin: auto;
+  width: 80%;
 }
 
 /*page main section 7*/
@@ -133,6 +146,7 @@ a .fa {
   background-position: center;
   background-size: cover;
   color: white;
+  height: 650px;
 }
 
 /*page main section 10*/
