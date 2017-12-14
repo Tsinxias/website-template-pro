@@ -2,7 +2,7 @@
 /*header - nav*/
 .autour {
   border-bottom: 1px solid black;
-  margin: 10px 0 10px 0; }
+  margin: 0; }
 
 .grey .fa, .nav a, .grey {
   color: #797979; }
