@@ -1,13 +1,12 @@
-
 /*page home main*/
 
-/*header*/
+/*header - nav*/
 .autour {
   border-bottom: 1px solid black;
-  margin: 10px 0 10px 0;
+  margin: 0;
 }
 
-.grey .fa {
+.grey .fa, .nav a, .grey {
   color: #797979;
 }
 
@@ -18,9 +17,6 @@
   padding-right: 10px;
 }
 
-a .fa {
-  color: #797979;
-}
 /*page main section 1*/
 .p1_sec1 {
   background-image: url("../images/3214321413.jpg");
@@ -87,13 +83,6 @@ a .fa {
   color: white;
 }
 
-.btn-outline-white {
-  background-color: #0088f8;
-  border-color: white;
-  color: white;
-  font-size: 1.5em;
-}
-
 .noSpace_down {
   margin-bottom: 0;
 }
@@ -108,7 +97,12 @@ a .fa {
 
 /*page main section 5*/
 .p1_sec5 {
-  height: 900px;
+  height: 950px;
+  margin-top: 95px;
+}
+
+.divider {
+  margin: 25px 0;
 }
 
 .upper-divider {
@@ -126,14 +120,114 @@ a .fa {
 /*page main section 6*/
 .p1_sec6 {
   background-color: #f7f7f7;
+  height: 750px;
+  padding-top: 95px;
+}
+
+.p1_box3 {
+  margin: 30px 0 ;
+}
+
+.box3_text {
+  margin: auto;
+  width: 80%;
 }
 
 /*page main section 7*/
+.p1_box4 p {
+  margin: 40px 0;
+}
+
 .img_back {
   background: linear-gradient(to bottom, rgba(55,62,70,.8),rgba(55,62,70,.8)), url("../images/c-lad9xizbg-tim-gouw.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
+  height: 600px;
+}
+
+.btn-noBack {
+  border: 1px solid white;
+  background: none;
+  color: white;
+}
+
+/*page main section 8*/
+.p1_sec8 {
+  height: 600px;
+}
+
+.sec8_right {
+  margin-left: 50px;
+  width: 35%;
+}
+
+.text_block {
+  height: 85px;
+  font-size: 0.8em;
+  background: none;
+}
+
+/*page main section 9*/
+.p1_sec9 {
+  background-image: url("../images/sky.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.p1_box5 {
+  width: 200px;
+  height: 170px;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.p1_box5_text {
+  padding-top: 35px;
+  width: 34%;
+}
+
+/*page main section 10*/
+.p1_sec10 {
+  height: 650px;
+}
+
+.p1_sec10 a {
+  margin-top: 40px;
+  color: black;
+}
+
+.p1_box6 {
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  padding: 25px 0 25px 25px;
+}
+
+.box6_back_left {
+  background-image: url("../images/23545-825x600.jpg");
+}
+
+.box6_back_middle {
+  background-image: url("../images/photography3-825x600.jpg");
+  margin: 0 30px;
+}
+
+.box6_back_right {
+  background-image: url("../images/aaron-burden-55603-825x600.jpg");
+}
+
+.box6_down {
+  padding-left: 25px;
+}
+
+.box6_author {
+  font-size: 0.8em;
+  margin: auto;
+  margin-left: 10px;
 }
 
 /*page main section 10*/
@@ -150,16 +244,42 @@ a .fa {
 /*page main footer*/
 .p1_footer {
   background-color: #131719;
+  padding: 60px 0;
+}
+
+.p1_footer hr {
+  background: #797979;
+  margin: 0;
+}
+
+.p1_footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  li {
+    padding: 15px 0;
+  }
+  li:first-of-type {
+    padding-top: 0;
+  }
+}
+
+.text-small {
+  font-size: 0.8em;
 }
 
 /*page main copyright*/
 .copyright {
   background-color: #0b0e0f;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 0;
 }
 
-.white {
+.white, .copyright_right .fa {
   color: white;
 }
+
+
 /* home about us */
 
 .h6-about {
