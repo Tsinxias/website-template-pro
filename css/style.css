@@ -1,4 +1,8 @@
 /*page home main*/
+<<<<<<< HEAD
+=======
+
+>>>>>>> 27a146e6cb174bd8e3449c8741463135789f46cc
 /*header - nav*/
 .autour {
   border-bottom: 1px solid black;
@@ -13,6 +17,12 @@
   padding-left: 10px;
   padding-right: 10px; }
 
+<<<<<<< HEAD
+=======
+a .fa {
+  color: #797979; }
+
+>>>>>>> 27a146e6cb174bd8e3449c8741463135789f46cc
 /*page main section 1*/
 .p1_sec1 {
   background-image: url("../images/3214321413.jpg");
