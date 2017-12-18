@@ -273,9 +273,24 @@
 .pPortfolio_box1 {
   margin-bottom: 30px; }
 
-/*page agency portfolio 2*/
 /*page blog author*/
 .pBlog_sec1 {
   background: linear-gradient(to bottom, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0.8)), url("../images/alisa-kehl-42553.jpg"); }
+
+/*page blog grid*/
+.pBlogGrid_header {
+  background-image: url("../images/2435434-1.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 800px; }
+
+.upper-divider_white {
+  background: white;
+  position: absolute;
+  width: 100px;
+  height: 3px; }
+
+.pBlogGrid_sec1 {
+  background-color: #1a1a1a; }
 
 /*# sourceMappingURL=style.css.map */
