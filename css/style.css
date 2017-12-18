@@ -293,4 +293,15 @@
 .pBlogGrid_sec1 {
   background-color: #1a1a1a; }
 
+/*page home shop*/
+.pShop_sec1 {
+  background-image: url("../images/shop-fullwidth.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px; }
+
+.small_price {
+  font-size: 0.8em; }
+
 /*# sourceMappingURL=style.css.map */
