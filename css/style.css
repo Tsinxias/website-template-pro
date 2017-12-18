@@ -244,7 +244,7 @@
   padding-top: 30px;
   padding-bottom: 20px; }
   .nav-min ul li a {
-    font-size: 15px; }
+    font-size: 12px; }
 
 /* box 2 min*/
 .box2-min {
@@ -284,12 +284,12 @@
 /*box 4 min*/
 .box4-home-min {
   width: 90%;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 80px; }
 
 .box4-min {
   box-shadow: 0px 18px 41px 2px lavender;
-  font-size: 15px;
-  padding-bottom: 20px; }
+  font-size: 15px; }
   .box4-min span {
     font-size: 12px; }
   .box4-min h6 {
@@ -301,17 +301,116 @@
   font-size: 12px;
   font-weight: bold; }
 
-/* fin home about us*/
-/* home digital agency*/
-.apple p {
-  font-size: 9px;
-  padding: 0;
-  margin: 0;
-  padding-left: 10px; }
-.apple span {
-  padding-left: 10px; }
+/* fin home about us */
+/* home about us */
+/*header*/
+.header-about {
+  background: linear-gradient(rgba(70, 92, 255, 0.79), rgba(70, 92, 255, 0.79)), url(../images/58dbbc62a29bf9980648106a_seo-manager.jpg);
+  height: 700px; }
+  .header-about header {
+    height: 40px;
+    color: white; }
+    .header-about header li a {
+      font-size: 10px; }
 
-.icone-apple {
-  padding-top: 4px; }
+.nav-min {
+  border-bottom: 1px solid white; }
+  .nav-min a {
+    color: white; }
+
+.autour-about {
+  border-bottom: 1px solid white;
+  margin: 0; }
+
+.grey-about {
+  color: white; }
+  .grey-about .fa {
+    color: white; }
+
+.border_left-about {
+  border-left: 1px solid white;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.header-box {
+  padding-left: 200px;
+  padding-top: 150px; }
+  .header-box .image-about {
+    padding-bottom: 30px; }
+  .header-box h6 {
+    color: #9ED7EC;
+    padding-bottom: 10px; }
+  .header-box h1 {
+    font-size: 50px;
+    color: white;
+    padding-bottom: 50px; }
+  .header-box .bouton-box {
+    width: 195.13px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px; }
+    .header-box .bouton-box a {
+      vertical-align: middle;
+      color: white;
+      text-decoration: none; }
+  .header-box .bouton-box:hover {
+    background-color: white; }
+    .header-box .bouton-box:hover a {
+      color: black; }
+
+/* box 1 about us */
+.box1-about {
+  padding-top: 70px; }
+  .box1-about p {
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 0; }
+
+.box1-button {
+  width: 220px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 60px; }
+  .box1-button .button-about {
+    background-color: #465cff;
+    padding: 5px 10px;
+    border-radius: 5px; }
+    .box1-button .button-about a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px; }
+  .box1-button .button-about:hover {
+    background-color: black; }
+
+/* box 2 about us */
+.box2-about {
+  width: 80%;
+  display: flex;
+  align-items: center; }
+  .box2-about h2 {
+    padding-bottom: 15px; }
+  .box2-about p {
+    color: grey;
+    padding-bottom: 20px; }
+  .box2-about .button-about {
+    background-color: #465cff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 130px; }
+    .box2-about .button-about a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px; }
+
+.image-box2 {
+  width: 642px;
+  height: 675px; }
+
+/*box 3 about us */
+.box3-about .image-box3 {
+  width: 642px;
+  height: 892px; }
 
 /*# sourceMappingURL=style.css.map */
