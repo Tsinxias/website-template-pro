@@ -239,7 +239,7 @@
   height: 800px;
   margin: 0; }
 
-.pElement_sec1, .pElement_sec5 {
+.pElement_sec1, .pElement_sec5, .pBlog_sec3 {
   height: 300px; }
 
 .pElement_sec2, .pElement_sec6, .pPortfolio_sec1, .pPortfolio_sec1-3 {
@@ -291,7 +291,10 @@
 
 /*page blog author*/
 .pBlog_sec1 {
-  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0.8)), url("../images/alisa-kehl-42553.jpg"); }
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0.8)), url("../images/alisa-kehl-42553.jpg");
+  height: 800px; }
+  .pBlog_sec1 h1 {
+    font-family: "Kaushan Script",cursive; }
 
 /*page blog grid*/
 .pBlogGrid_header {
