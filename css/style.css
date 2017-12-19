@@ -1,5 +1,4 @@
 /*page home main*/
-
 /*header - nav*/
 .autour {
   border-bottom: 1px solid black;
@@ -253,7 +252,7 @@
 .noMargin {
   margin: 0; }
 
-.pElement_sec4, .pElement_sec6, .pPhotography_sec2 {
+.pElement_sec4, .pElement_sec6, .pPhotography_sec2, .pContact_sec3 {
   background-color: #f5f5f5; }
 
 .pElement_sec7 {
@@ -304,5 +303,27 @@
 
 .small_price {
   font-size: 0.8em; }
+
+/*page contact us*/
+.pContact_sec1 {
+  background: linear-gradient(rgba(62, 75, 254, 0.8), rgba(62, 75, 254, 0.8)), url("../images/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px; }
+  .pContact_sec1 hr {
+    margin: 20px 0; }
+
+.little_form {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.round {
+  background-color: #3e4bfe;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px; }
 
 /*# sourceMappingURL=style.css.map */
