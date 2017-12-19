@@ -106,7 +106,7 @@
 }
 
 .upper-divider {
-  background: #0088f8;
+  background: rgba(70,92,255,0.79);
   position: absolute;
   width: 100px;
   height: 3px;
@@ -335,10 +335,13 @@
 }
 
 .bouton-min {
-  color: white;
   background-color: rgba(70,92,255, 1.00);
   border-radius: 5px;
   text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+  }
   width: 35%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -489,9 +492,10 @@
 
 /* box 2 about us */
 .box2-about {
-  width: 80%;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   h2 {
     padding-bottom: 15px;
   }
@@ -517,10 +521,102 @@
   height: 675px;
 }
 
+.main-about {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.box2 {
+  width: 100%;
+}
+
 /*box 3 about us */
 .box3-about  {
+  padding-left: 0;
   .image-box3 {
-    width: 642px;
+    width: 656px;
     height: 892px;
+  }
+  h2 {
+    padding-top: 0;
+  }
+}
+
+.padding-box3 {
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+.padding-bot-box3 {
+  padding-bottom: 25px;
+}
+
+.grey {
+  color: grey;
+}
+
+/* box 4 about us */
+.box4-about {
+  background: linear-gradient(rgba(70,92,255,0.79), rgba(70,92,255,0.79)), url(../images/alisa-kehl-42553-2.jpg);
+  height: 241px;
+  color: white;
+  span {
+    font-size: px;
+    padding-bottom: 0;
+  }
+}
+
+/* box 5 about us */
+.box5-about {
+  p {
+    padding-top: 70px;
+    margin-bottom: 0;
+    color: grey;
+  }
+}
+
+/*box 6 about us */
+.box6-about {
+  flex-direction: column;
+  padding-bottom: 50px;
+  p {
+    width: 50%;
+    text-align: center;
+  }
+  span {
+    font-size: 12px;
+    color: grey;
+  }
+  h6 {
+    margin-bottom: 0;
+  }
+}
+
+/* box 7 */
+.box7 {
+  padding-bottom: 50px;
+  p {
+    margin-bottom: 0;
+    color: grey;
+  }
+  .divider{
+    padding-bottom: 15px;
+  }
+  h6 {
+    padding-top: 30px;
+  }
+  span {
+    color: grey;
+    font-size: 15px;
+  }
+  .box7-div {
+    padding-top: 15px;
+    width: 60%;
+    margin: auto;
+  }
+  .fa {
+    color: grey;
   }
 }

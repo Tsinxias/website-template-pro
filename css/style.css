@@ -85,7 +85,7 @@
   margin: 25px 0; }
 
 .upper-divider {
-  background: #0088f8;
+  background: rgba(70, 92, 255, 0.79);
   position: absolute;
   width: 100px;
   height: 3px; }
@@ -268,13 +268,15 @@
     padding-bottom: 40px; }
 
 .bouton-min {
-  color: white;
   background-color: #465cff;
   border-radius: 5px;
   text-align: center;
   width: 35%;
   padding-top: 10px;
   padding-bottom: 10px; }
+  .bouton-min a {
+    text-decoration: none;
+    color: white; }
 
 /* box 3 min*/
 .box3-min {
@@ -386,9 +388,10 @@
 
 /* box 2 about us */
 .box2-about {
-  width: 80%;
   display: flex;
-  align-items: center; }
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
   .box2-about h2 {
     padding-bottom: 15px; }
   .box2-about p {
@@ -408,9 +411,80 @@
   width: 642px;
   height: 675px; }
 
+.main-about {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.box2 {
+  width: 100%; }
+
 /*box 3 about us */
-.box3-about .image-box3 {
-  width: 642px;
-  height: 892px; }
+.box3-about {
+  padding-left: 0; }
+  .box3-about .image-box3 {
+    width: 656px;
+    height: 892px; }
+  .box3-about h2 {
+    padding-top: 0; }
+
+.padding-box3 {
+  padding-bottom: 4px;
+  margin: 0; }
+
+.padding-bot-box3 {
+  padding-bottom: 25px; }
+
+.grey {
+  color: grey; }
+
+/* box 4 about us */
+.box4-about {
+  background: linear-gradient(rgba(70, 92, 255, 0.79), rgba(70, 92, 255, 0.79)), url(../images/alisa-kehl-42553-2.jpg);
+  height: 241px;
+  color: white; }
+  .box4-about span {
+    font-size: px;
+    padding-bottom: 0; }
+
+/* box 5 about us */
+.box5-about p {
+  padding-top: 70px;
+  margin-bottom: 0;
+  color: grey; }
+
+/*box 6 about us */
+.box6-about {
+  flex-direction: column;
+  padding-bottom: 50px; }
+  .box6-about p {
+    width: 50%;
+    text-align: center; }
+  .box6-about span {
+    font-size: 12px;
+    color: grey; }
+  .box6-about h6 {
+    margin-bottom: 0; }
+
+/* box 7 */
+.box7 {
+  padding-bottom: 50px; }
+  .box7 p {
+    margin-bottom: 0;
+    color: grey; }
+  .box7 .divider {
+    padding-bottom: 15px; }
+  .box7 h6 {
+    padding-top: 30px; }
+  .box7 span {
+    color: grey;
+    font-size: 15px; }
+  .box7 .box7-div {
+    padding-top: 15px;
+    width: 60%;
+    margin: auto; }
+  .box7 .fa {
+    color: grey; }
 
 /*# sourceMappingURL=style.css.map */
