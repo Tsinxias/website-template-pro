@@ -190,11 +190,6 @@
   margin: auto;
   margin-left: 10px; }
 
-/*page main section 10*/
-.p1_sec10 {
-  background-color: #f5f5f5;
-  margin: 0; }
-
 /*page main section 12*/
 .p1_sec12, .pElement_sec7 {
   background-color: #0088f8; }
@@ -225,6 +220,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 20px 0; }
+  .copyright .copyright_right .fa {
+    color: grey; }
 
 .white {
   color: white; }
@@ -245,7 +242,7 @@
 .pElement_sec1, .pElement_sec5 {
   height: 300px; }
 
-.pElement_sec2, .pElement_sec6 {
+.pElement_sec2, .pElement_sec6, .pPortfolio_sec1, .pPortfolio_sec1-3 {
   height: 400px; }
 
 .pEl_box2 {
@@ -261,7 +258,7 @@
 .pElement_sec4 {
   height: 500px; }
 
-.pElement_sec7, .pPhotography_sec1 {
+.pElement_sec7, .pPhotography_sec1, .p1_sec12 {
   height: 200px; }
 
 /*page element photography*/
