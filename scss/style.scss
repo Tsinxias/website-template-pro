@@ -363,6 +363,8 @@
 .box4-min {
   box-shadow: 0px 18px 41px 2px lavender;
   font-size: 15px;
+  padding-bottom: 30px;
+  padding-top: 20px;
   span {
     font-size: 12px;
   }
@@ -563,7 +565,7 @@
   height: 241px;
   color: white;
   span {
-    font-size: px;
+    font-size: 28px;
     padding-bottom: 0;
   }
 }
@@ -618,5 +620,30 @@
   }
   .fa {
     color: grey;
+  }
+}
+
+/* box 8 */
+.box8-about {
+  background: linear-gradient(rgba(70,92,255,0.79), rgba(70,92,255,0.79)), url(../images/231§43-2.jpg);
+  height: 403px;
+  form {
+    padding-top: 30px;
+  }
+  h1 {
+    color: white;
+  }
+  .bouton-about {
+    width: 171.69px;
+    height: 38px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    a {
+      vertical-align: middle;
+      color: white;
+      text-decoration: none;
+    }
   }
 }

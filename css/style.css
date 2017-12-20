@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*page home main*/
 /*header - nav*/
 .autour {
@@ -291,7 +292,9 @@
 
 .box4-min {
   box-shadow: 0px 18px 41px 2px lavender;
-  font-size: 15px; }
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-top: 20px; }
   .box4-min span {
     font-size: 12px; }
   .box4-min h6 {
@@ -445,7 +448,7 @@
   height: 241px;
   color: white; }
   .box4-about span {
-    font-size: px;
+    font-size: 28px;
     padding-bottom: 0; }
 
 /* box 5 about us */
@@ -486,5 +489,25 @@
     margin: auto; }
   .box7 .fa {
     color: grey; }
+
+/* box 8 */
+.box8-about {
+  background: linear-gradient(rgba(70, 92, 255, 0.79), rgba(70, 92, 255, 0.79)), url(../images/231§43-2.jpg);
+  height: 403px; }
+  .box8-about form {
+    padding-top: 30px; }
+  .box8-about h1 {
+    color: white; }
+  .box8-about .bouton-about {
+    width: 171.69px;
+    height: 38px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center; }
+    .box8-about .bouton-about a {
+      vertical-align: middle;
+      color: white;
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
