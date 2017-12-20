@@ -17,6 +17,10 @@
   padding-right: 10px;
 }
 
+.pad-around {
+  padding: 20px 0;
+}
+
 /*page main section 1*/
 .p1_sec1 {
   background-image: url("../images/3214321413.jpg");
@@ -233,7 +237,7 @@
 }
 
 /*page main section 12*/
-.p1_sec12 {
+.p1_sec12, .pElement_sec7 {
   background-color: #0088f8;
 }
 
@@ -269,11 +273,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 20px 0;
+  .copyright_right .fa {
+    color: grey;
+  }
 }
 
-.white, .copyright_right .fa {
+.white {
   color: white;
 }
+
 
 /* home minimal */
 
@@ -377,15 +385,6 @@
 
 /* home about us */
 
-.h6-about {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-/* fin home about us */
-
-/* home about us */
-
 /*header*/
 .header-about {
   background: linear-gradient(rgba(70,92,255,0.79), rgba(70,92,255,0.79)), url(../images/58dbbc62a29bf9980648106a_seo-manager.jpg);
@@ -396,7 +395,7 @@
       li {
         a {
           font-size: 10px;
-      }
+        }
       }
   }
 }
@@ -453,7 +452,6 @@
       text-decoration: none;
     }
   }
-
   .bouton-box:hover {
     background-color: white;
     a {
@@ -646,4 +644,156 @@
       text-decoration: none;
     }
   }
+}
+
+/*page home section style*/
+.pElement_header {
+  background-image: url("../images/34253245-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  margin: 0;
+}
+
+.pElement_sec1, .pElement_sec5, .pBlog_sec3 {
+  height: 300px,
+}
+
+.pElement_sec2, .pElement_sec6, .pPortfolio_sec1, .pPortfolio_sec1-3, .pContact_sec2 {
+  height: 400px;
+}
+
+.pEl_box2 {
+  background-color: white;
+}
+
+.noMargin {
+  margin: 0;
+  padding: 0;
+}
+
+.pElement_sec2, .pElement_sec4, .pElement_sec6, .pPhotography_sec2, .pContact_sec3 {
+  background-color: #f5f5f5;
+}
+
+.pElement_sec4, .pPortfolio2_sec3 {
+  height: 500px;
+}
+
+.pElement_sec7, .pPhotography_sec1, .pPhotography_sec3, .p1_sec12, .pContact_sec3 {
+  height: 200px;
+}
+
+/*page element photography*/
+.pPhotography_header {
+  background: linear-gradient(to bottom, rgba(55,62,70,.8),rgba(55,62,70,.8)), url("../images/324143214.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .nav a {
+    color: white;
+  }
+  .dropdown-menu a {
+    color: #797979;
+  }
+}
+
+.pPhotography_head {
+  height: 600px;
+}
+
+.back_white {
+  background: white;
+}
+
+.pPhotography_sec2 {
+  height: 1250px;
+}
+
+/*page portfolio 1-2*/
+.pPortfolio_box1 {
+  margin-bottom: 30px;
+}
+
+.btn-grey {
+  background: lightgrey;
+  box-shadow: 0px 5px 20px 0px rgba(110,108,110,1);
+}
+
+/*page blog author*/
+.pBlog_sec1 {
+  background: linear-gradient(to bottom, rgba(0,0,255,.8),rgba(0,0,255,.8)), url("../images/alisa-kehl-42553.jpg");
+  height: 800px;
+  h1 {
+    font-family: "Kaushan Script",cursive;
+  }
+}
+
+/*page blog grid*/
+.pBlogGrid_header {
+  background-image: url("../images/2435434-1.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 700px;
+  .nav a {
+    color: white;
+  }
+  .dropdown-menu a {
+    color: #797979;
+  }
+}
+
+.upper-divider_white {
+  background: white;
+  position: absolute;
+  width: 100px;
+  height: 3px;
+}
+
+.pBlogGrid_sec1 {
+  background-color: #1a1a1af7;
+  height: 1500px;
+}
+
+/*page home shop*/
+.pShop_sec1 {
+  background-image: url("../images/shop-fullwidth.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.small_price {
+  font-size: 0.8em;
+}
+
+.pShop_sec2 {
+  height: 1350px;
+}
+
+/*page contact us*/
+.pContact_sec1 {
+  background: linear-gradient(rgba(62, 75, 254, 0.9), rgba(62, 75, 254, 0.9)), url("../images/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  hr {
+    margin: 20px 0;
+  }
+}
+
+.little_form {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.round {
+  background-color: rgb(62, 75, 254);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
 }
