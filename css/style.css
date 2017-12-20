@@ -301,7 +301,11 @@
   background-image: url("../images/2435434-1.jpg");
   background-position: bottom;
   background-size: cover;
-  height: 800px; }
+  height: 700px; }
+  .pBlogGrid_header .nav a {
+    color: white; }
+  .pBlogGrid_header .dropdown-menu a {
+    color: #797979; }
 
 .upper-divider_white {
   background: white;
@@ -310,7 +314,8 @@
   height: 3px; }
 
 .pBlogGrid_sec1 {
-  background-color: #1a1a1a; }
+  background-color: #1a1a1af7;
+  height: 1500px; }
 
 /*page home shop*/
 .pShop_sec1 {
