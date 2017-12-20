@@ -328,6 +328,9 @@
 .small_price {
   font-size: 0.8em; }
 
+.pShop_sec2 {
+  height: 1350px; }
+
 /*page contact us*/
 .pContact_sec1 {
   background: linear-gradient(rgba(62, 75, 254, 0.8), rgba(62, 75, 254, 0.8)), url("../images/map.png");
