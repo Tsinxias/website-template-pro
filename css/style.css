@@ -316,6 +316,10 @@
     color: white; }
     .header-about header li a {
       font-size: 10px; }
+  .header-about .nav a {
+    color: white; }
+  .header-about .dropdown-menu a {
+    color: #797979; }
 
 .nav-min {
   border-bottom: 1px solid white; }
