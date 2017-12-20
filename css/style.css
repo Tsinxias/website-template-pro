@@ -242,7 +242,7 @@
 .pElement_sec1, .pElement_sec5, .pBlog_sec3 {
   height: 300px; }
 
-.pElement_sec2, .pElement_sec6, .pPortfolio_sec1, .pPortfolio_sec1-3 {
+.pElement_sec2, .pElement_sec6, .pPortfolio_sec1, .pPortfolio_sec1-3, .pContact_sec2 {
   height: 400px; }
 
 .pEl_box2 {
@@ -258,7 +258,7 @@
 .pElement_sec4, .pPortfolio2_sec3 {
   height: 500px; }
 
-.pElement_sec7, .pPhotography_sec1, .p1_sec12 {
+.pElement_sec7, .pPhotography_sec1, .pPhotography_sec3, .p1_sec12, .pContact_sec3 {
   height: 200px; }
 
 /*page element photography*/
@@ -333,11 +333,11 @@
 
 /*page contact us*/
 .pContact_sec1 {
-  background: linear-gradient(rgba(62, 75, 254, 0.8), rgba(62, 75, 254, 0.8)), url("../images/map.png");
+  background: linear-gradient(rgba(62, 75, 254, 0.9), rgba(62, 75, 254, 0.9)), url("../images/map.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px; }
+  padding-top: 60px; }
   .pContact_sec1 hr {
     margin: 20px 0; }
 
