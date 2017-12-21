@@ -2,17 +2,16 @@
 /*page home main*/
 /*header - nav*/
 .autour {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgrey;
   margin: 0; }
 
 .grey .fa, .nav a, .grey {
   color: #797979; }
 
 .border_left {
-  border-left: 1px solid black;
-  padding: 0;
-  padding-left: 10px;
-  padding-right: 10px; }
+  border-left: 1px solid lightgrey;
+  padding: 0 10px;
+  height: 40px; }
 
 .pad-around {
   padding: 20px 0; }
@@ -351,9 +350,8 @@
 
 .border_left-about {
   border-left: 1px solid white;
-  padding: 0;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding: 0 10px;
+  height: 40px; }
 
 .header-box {
   padding-left: 200px;
@@ -659,5 +657,70 @@
   border-radius: 50%;
   width: 120px;
   height: 120px; }
+
+/* home digital agency début */
+.header-digital {
+  background-image: url("../images/231§43.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px; }
+  .header-digital header {
+    height: 40px;
+    color: white; }
+    .header-digital header li a {
+      font-size: 10px; }
+  .header-digital .nav a {
+    color: white; }
+  .header-digital .dropdown-menu a {
+    color: #797979; }
+
+.header-box h1 {
+  padding-left: 0;
+  padding-bottom: 40px; }
+
+/* box 1 digital agency */
+.media .fa {
+  color: white;
+  border: 1px solid white;
+  width: 50px;
+  height: 43px;
+  padding-top: 5px; }
+
+.box1-dig-agency {
+  padding-top: 60px; }
+  .box1-dig-agency p {
+    margin: 0; }
+  .box1-dig-agency img {
+    margin-bottom: 20px; }
+  .box1-dig-agency .box1 {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px; }
+  .box1-dig-agency .fontsize {
+    font-size: 13px;
+    padding-bottom: 70px; }
+
+/* box 2 digital agency */
+.fontsizeplus {
+  font-size: 19px; }
+
+.marginauto {
+  margin: auto; }
+
+.box2-dig-agency .dimension {
+  width: 37px;
+  height: 49px; }
+
+/* box 3 digital agency = box 3 about us*/
+.paddingplus {
+  padding-bottom: 50px; }
+
+.overflownul {
+  overflow: hidden; }
+
+/* box 4 digital agency */
+.image-box4 {
+  width: 345px;
+  height: 512.52px; }
 
 /*# sourceMappingURL=style.css.map */
