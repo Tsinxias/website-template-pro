@@ -23,8 +23,9 @@
 /*page main section 1*/
 .p1_sec1 {
   background-image: url("../images/3214321413.jpg");
-  background-position: center;
+  background-position: top;
   background-size: cover;
+  background-attachment: fixed;
   height: 800px;
   color: white;
 }
@@ -143,9 +144,10 @@
 
 .img_back {
   background: linear-gradient(to bottom, rgba(55,62,70,.8),rgba(55,62,70,.8)), url("../images/c-lad9xizbg-tim-gouw.jpg");
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   height: 600px;
 }
@@ -176,8 +178,9 @@
 .p1_sec9 {
   background-image: url("../images/sky.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 400px;
 }
 
@@ -580,6 +583,10 @@
 /* box 4 about us */
 .box4-about {
   background: linear-gradient(rgba(70,92,255,0.79), rgba(70,92,255,0.79)), url(../images/alisa-kehl-42553-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 241px;
   color: white;
   span {
@@ -644,6 +651,10 @@
 /* box 8 */
 .box8-about {
   background: linear-gradient(rgba(70,92,255,0.79), rgba(70,92,255,0.79)), url(../images/231§43-2.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 403px;
   form {
     padding-top: 30px;
@@ -670,7 +681,9 @@
 .pElement_header {
   background-image: url("../images/34253245-1.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 800px;
   margin: 0;
 }
@@ -710,6 +723,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   .nav a {
     color: white;
   }
@@ -743,6 +757,10 @@
 /*page blog author*/
 .pBlog_sec1 {
   background: linear-gradient(to bottom, rgba(0,0,255,.8),rgba(0,0,255,.8)), url("../images/alisa-kehl-42553.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 800px;
   h1 {
     font-family: "Kaushan Script",cursive;
@@ -765,6 +783,8 @@
   background-image: url("../images/2435434-1.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 700px;
   .nav a {
     color: white;
@@ -792,9 +812,10 @@
 /*page home shop*/
 .pShop_sec1 {
   background-image: url("../images/shop-fullwidth.png");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 700px;
 }
 
@@ -809,9 +830,10 @@
 /*page contact us*/
 .pContact_sec1 {
   background: linear-gradient(rgba(62, 75, 254, 0.9), rgba(62, 75, 254, 0.9)), url("../images/map.png");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   padding-top: 60px;
   hr {
     margin: 20px 0;
