@@ -2,17 +2,16 @@
 /*page home main*/
 /*header - nav*/
 .autour {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgrey;
   margin: 0; }
 
 .grey .fa, .nav a, .grey {
   color: #797979; }
 
 .border_left {
-  border-left: 1px solid black;
-  padding: 0;
-  padding-left: 10px;
-  padding-right: 10px; }
+  border-left: 1px solid lightgrey;
+  padding: 0 10px;
+  height: 40px; }
 
 .pad-around {
   padding: 20px 0; }
